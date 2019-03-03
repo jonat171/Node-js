@@ -1,0 +1,9 @@
+Facture numéro 3/// datant du 16/2/2019 à 14h
+
+nom client -> fdt 
+adresse -> 37 rue du bacon 
+cp -> 75017 
+ville -> Paname art café
+prestation fournie -> salami 
+nombre d'heure travaillées -> 12 & coût horaire -> 25 
+TTC = 300

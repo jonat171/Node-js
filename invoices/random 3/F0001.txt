@@ -1,0 +1,9 @@
+Facture numéro 1/// datant du 16/2/2019 à 14h
+
+nom client -> random 3 
+adresse -> 37 rue du bacon 
+cp -> 75017 
+ville -> Paname art café
+prestation fournie -> azee 
+nombre d'heure travaillées -> 12 & coût horaire -> 32 
+TTC = 384

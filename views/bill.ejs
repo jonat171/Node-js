@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test file</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+        <fieldset>
+        <h2>Générateur de factures</h2>
+        <form action="./preparebill" method="post">
+            <ul>
+                <li><label>
+                    Nom du client
+                    <input name="name" type="text" class="ghost-input" placeholder="Enter a City" required>
+                </label></li>     
+                <li><label>
+                    Prestation fournie
+                    <input name="presta" type="text" class="ghost-input" placeholder="Enter a City" required>
+                </label></li>
+                <li><label>
+                    Nombre d'heures facturées
+                    <input name="hours" type="text" class="ghost-input" placeholder="Enter a City" required>
+                </label></li>
+                <li><label>
+                    Coût horaire
+                    <input name="cost" type="text" class="ghost-input" placeholder="Enter a City" required>
+                </label></li>
+                <li>Y a-t-il une TVA?
+                    <input name="tva" type="radio" value="tvaYes">Oui
+                    <input name="tva" type="radio" value="tvaNo">Non
+                    <input name="tauxTva" type="text" class="ghost-input" placeholder="taux(si tva présente)">
+                </li>   
+                <li><input type="submit" class="ghost-button" value="Créer une facture"></li>
+            </ul>
+        </form>
+
+
+        </fieldset>
+        </div>
+    </body>
+</html>
